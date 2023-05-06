@@ -1,6 +1,6 @@
 ---
 - name: Docker and Docker COmpose
-  hosts: all
+  hosts: deb_servers
   become: true
 
   tasks:
