@@ -31,7 +31,7 @@
   tasks:
     - name: Copy the PS Script
       win_copy:
-        src: ps/hp_plan.ps1
+        src: powershell/hp_plan.ps1
         dest: C:\temp\hp_plan.ps1
 
     - name: Run hp_plan.ps1
