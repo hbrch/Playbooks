@@ -1,6 +1,6 @@
 ---
 - name: Docker and Docker Compose
-  hosts: all
+  hosts: suse_servers
   become: true
 
   tasks:
