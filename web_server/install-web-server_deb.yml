@@ -1,3 +1,4 @@
+# Should be done after running the Docker Installation Playbook
 ---
 - name: Installation of the Web Server Components
   hosts: all
