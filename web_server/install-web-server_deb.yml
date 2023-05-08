@@ -1,4 +1,4 @@
-# Should be done after running the Docker Installation Playbook
+# Should be ran after running the Docker Installation Playbook in /docker_setup
 ---
 - name: Installation of the Web Server Components
   hosts: all
