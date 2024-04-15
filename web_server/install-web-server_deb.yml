@@ -1,4 +1,5 @@
 # Should be ran after running the Docker Installation Playbook in /docker_setup
+# Used to spin up a very basic Web Server
 ---
 - name: Installation of the Web Server Components
   hosts: all
